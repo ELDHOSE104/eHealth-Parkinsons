@@ -1,0 +1,62 @@
+  img,
+image,
+video{max-width:100%;}
+ul{padding:0;margin:0;}
+figure{position:relative;}
+@media (max-width:991px){
+    .logo1{height: 75px !important;
+        margin-left: -301px !important;}
+}
+@media (max-width:767px){
+
+  .myvideo
+{
+    width: 300px !important;
+    height: 300px !important;
+    margin-top: 10px !important;
+    margin-left: 320px !important;
+}
+}
+@media (min-width: 768px){
+
+}
+.btn {
+    background: #ff0000;
+    min-width: 100px;
+    padding: 5px 15px;
+    color: #fff;
+    min-width: 100px;
+    font-family: 'myriad_set_promedium';
+    letter-spacing: 0.5px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+ 
+.playBtn {
+    position: relative;
+    width: 60px;
+    height: 60px;
+    left: 202px;
+    bottom: 126px;
+     top: 50%; 
+    margin-left: -48px;
+    margin-top: -48px;
+    cursor: pointer;
+}
+.myvideo
+{
+    position: fixed;
+    height: 550px;
+    width: 1000px;
+    
+    margin-top: 10px;
+}
+.modal-body {
+    display: contents;
+    padding: 1rem;
+}
+.row{
+  text-align: center;
+}
